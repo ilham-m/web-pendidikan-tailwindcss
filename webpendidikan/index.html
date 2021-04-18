@@ -23,7 +23,7 @@
       <nav class="text-right">
         <div class="flex justify-between items-center">
           <h1 class="font-bold uppercase p-4 border-b border-gray-100" data-aos="fade-right" data-aos-delay="100" >
-            <a href="/" class="hover:text-gray-700 tracking-widest"  >Wonderland stream</a>
+            <a href="#" class="hover:text-gray-700 tracking-widest"  >Wonderland stream</a>
           </h1>
           <div class="px-4 cursor-pointer md:hidden" id="">
             <svg class="w-6 h-6 " fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>
@@ -65,7 +65,7 @@
       <div class="mt-12" data-aos="fade-left" data-aos-delay="400">
         <form>
           <input class="border border-gray-100 focus:outline-none focus:ring-2 focus:ring-green-300 focus-visible:ring-gray-50 rounded-md w-3/6 py-1" >
-          <button class="btn mx-1 shadow bg-green-400 px-5 py-1 rounded text-white focus:outline-none focus:ring-2 focus:ring-green-700 focus:ring-opacity-50">
+          <button class="btn mx-1 shadow bg-green-400 px-5 py-1 rounded text-white focus:outline-none focus:ring-2 focus:ring-green-900 focus:ring-opacity-50 hover:bg-green-600">
             search <span class="ml-2 pt-0.5"><i class="fa fa-search w-2" aria-hidden="true"></i></span>
           </button>
         </form>
@@ -75,33 +75,39 @@
         <div class="mt-8 grid lg:grid-cols-3 gap-10">
           <!-- cards go here -->
           
-          <div class="card hover:shadow-2xl transform transition duration-300 hover:scale-105" data-aos="fade-left" data-aos-delay="100"> 
-            <img src="public/img/3d-model.jpeg" alt="3d modelling course" class="h-32 sm:h-80 w-full object-cover rounded-t-2xl hover:-translate-y-1">
-            <div class="bg-gray-500  rounded-b-2xl">
-              <div class="p-5 text-center">
-                <span class="font-bold text-white">Beginner 3d Modelling</span>
-                <span class="block text-white text-sm font-semibold">course by Albedo</span>
-                <span class="block text-white text-xs mt-2">full Beginner 3d modelling course using blender</span>
-              </div>
+            <div class="card hover:shadow-2xl transform transition duration-300 hover:scale-105"> 
+                <div data-aos="fade-left" data-aos-delay="100">
+                  <img src="public/img/3d-model.jpeg" alt="3d modelling course" class="h-32 sm:h-80 w-full object-cover rounded-t-2xl hover:-translate-y-1">
+                  <div class="bg-gray-500  rounded-b-2xl">
+                    <div class="p-5 text-center">
+                      <span class="font-bold text-white">Beginner 3d Modelling</span>
+                      <span class="block text-white text-sm font-semibold">course by Albedo</span>
+                      <span class="block text-white text-xs mt-2">full Beginner 3d modelling course using blender</span>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          <div class="card hover:shadow-2xl transform transition duration-300 hover:scale-105">
+            <div data-aos="fade-left" data-aos-delay="200">
+             <img src="public/img/php-course.jpg" alt="java course" class="h-32 sm:h-80 w-full object-cover rounded-t-2xl">
+               <div class="bg-gray-500  rounded-b-2xl">
+                  <div class="p-5 text-center">
+                    <span class="font-bold text-white">Learn Java In 40 Minutes</span>
+                    <span class="block text-white text-sm font-semibold">course by Zhongli</span>
+                    <span class="block text-white text-xs mt-2">Tutorial How to operate java computer language for beginner</span>
+                  </div>
+                </div>    
             </div>
           </div>
-          <div class="card hover:shadow-2xl transform transition duration-300 hover:scale-105" data-aos="fade-left" data-aos-delay="200"> 
-            <img src="public/img/php-course.jpg" alt="java course" class="h-32 sm:h-80 w-full object-cover rounded-t-2xl">
-            <div class="bg-gray-500  rounded-b-2xl">
-              <div class="p-5 text-center">
-                <span class="font-bold text-white">Learn Java In 40 Minutes</span>
-                <span class="block text-white text-sm font-semibold">course by Zhongli</span>
-                <span class="block text-white text-xs mt-2">Tutorial How to operate java computer language for beginner</span>
-              </div>
-            </div>
-          </div>
-          <div class="card hover:shadow-2xl transform transition duration-300 hover:scale-105" data-aos="fade-left" data-aos-delay="300"> 
-            <img src="public/img/2d-modeling.jpeg" alt="2d Modeling" class="h-32 sm:h-80 w-full object-cover rounded-t-2xl">
-            <div class="bg-gray-500  rounded-b-2xl">
-              <div class="p-5 text-center">
-                <span class="font-bold text-white">Beginner 2d Modelling</span>
-                <span class="block text-white text-sm font-semibold">course by Albedo</span>
-                <span class="block text-white text-xs mt-2">full Beginner 2d modelling course using blender</span>
+          <div class="card hover:shadow-2xl transform transition duration-300 hover:scale-105" >
+            <div data-aos="fade-left" data-aos-delay="300"> 
+              <img src="public/img/2d-modeling.jpeg" alt="2d Modeling" class="h-32 sm:h-80 w-full object-cover rounded-t-2xl">
+              <div class="bg-gray-500  rounded-b-2xl">
+                <div class="p-5 text-center">
+                  <span class="font-bold text-white">Beginner 2d Modelling</span>
+                  <span class="block text-white text-sm font-semibold">course by Albedo</span>
+                  <span class="block text-white text-xs mt-2">full Beginner 2d modelling course using blender</span>
+                </div>
               </div>
             </div>
           </div>
@@ -112,25 +118,31 @@
 
         <div class="mt-8 grid lg:grid-cols-3 gap-10">
           <!-- cards go here -->
-          <div class="card hover:shadow-lg transform transition duration-100 hover:scale-105 rounded-2xl" data-aos="fade-left" data-aos-delay="200"> 
-            <img src="Public/img/Albedo1.jpg" alt="ALbedo" class="h-32 sm:h-48 w-full object-cover rounded-t-2xl">
-            <div class="m-4 ">
-              <span class="font-bold truncate block">Albedo</span>
-              <span class="block text-gray-500 text-sm">Graphic Designer | VFX Artist</span>
+          <div class="card hover:shadow-lg transform transition duration-100 hover:scale-105 rounded-2xl">
+            <div data-aos="fade-left" data-aos-delay="200">
+              <img src="Public/img/Albedo1.jpg" alt="ALbedo" class="h-32 sm:h-48 w-full object-cover rounded-t-2xl">
+              <div class="m-4 ">
+                <span class="font-bold truncate block">Albedo</span>
+                <span class="block text-gray-500 text-sm">Graphic Designer | VFX Artist</span>
+              </div>
+            </div>  
+          </div>
+          <div class="card hover:shadow-lg transform transition duration-100 hover:scale-105 rounded-2xl">
+            <div data-aos="fade-left" data-aos-delay="300"> 
+              <img src="Public/img/Zhongli.jpg" alt="zhongli" class="h-32 sm:h-48 w-full object-cover rounded-t-2xl">
+              <div class="m-4 ">
+                <span class="font-bold truncate block">Zhongli</span>
+                <span class="block text-gray-500 text-sm">Fullstack Programmer</span>
+              </div>
             </div>
           </div>
-          <div class="card hover:shadow-lg transform transition duration-100 hover:scale-105 rounded-2xl" data-aos="fade-left" data-aos-delay="300"> 
-            <img src="Public/img/Zhongli.jpg" alt="zhongli" class="h-32 sm:h-48 w-full object-cover rounded-t-2xl">
-            <div class="m-4 ">
-              <span class="font-bold truncate block">Zhongli</span>
-              <span class="block text-gray-500 text-sm">Fullstack Programmer</span>
-            </div>
-          </div>
-          <div class="card hover:shadow-lg transform transition duration-100 hover:scale-105 rounded-2xl" data-aos="fade-left" data-aos-delay="400"> 
-            <img src="Public/img/mrbean.jpg" alt="bean" class="h-32 sm:h-48 w-full object-cover rounded-t-2xl">
-            <div class="m-4 ">
-              <span class="font-bold truncate block">Mr.Bean</span>
-              <span class="block text-gray-500 text-sm">Data Administrator</span>
+          <div class="card hover:shadow-lg transform transition duration-100 hover:scale-105 rounded-2xl" >
+            <div data-aos="fade-left" data-aos-delay="400"> 
+              <img src="Public/img/mrbean.jpg" alt="bean" class="h-32 sm:h-48 w-full object-cover rounded-t-2xl">
+              <div class="m-4 ">
+                <span class="font-bold truncate block">Mr.Bean</span>
+                <span class="block text-gray-500 text-sm">Data Administrator</span>
+              </div>
             </div>
           </div>
          
